@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Select</title>
+</head>
+
+<body>
+
+    <main>
+        <form action="#">
+            <fieldset>
+                <legend>Destinos</legend>
+                <select name="tabeladedados" id="001">
+                    <option disabled="disabled" selected>Selecione</option>
+                    <option value="fozdoiguacu">Foz do Iguaçu</option>
+                    <option value="bonito">Bonito</option>
+                    <option value="arraialdocabo">Arraial do Cabo</option>
+                    <option value="brasilia">Brasília</option>
+                    <option value="natal">Natal</option>
+                </select>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Data</legend>
+                <input type="text" list="meses">
+                <datalist id="meses">
+                    <option value="Janeiro"></option>
+                    <option value="Fevereiro"></option>
+                    <option value="Março"></option>
+                    <option value="Abril"></option>
+                    <option value="Maio"></option>
+                    <option value="Junho"></option>
+                </datalist>
+            </fieldset>
+            <br><br>
+            <label for="feedback">Deixe seu Feedback</label>
+            <br><br>
+            <textarea required cols="30" rows="10" maxlength="300" minlength="10"
+                placeholder="Deixe aqui seu comentário"></textarea>
+            <!--required serve para deixar o campo obrigatório-->
+            <input type="submit" value="Enviar">
+        </form>
+
+
+
+    </main>
+
+
+</body>
+
+</html>

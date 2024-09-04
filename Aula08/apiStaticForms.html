@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Api</title>
+</head>
+
+<body>
+    
+    <header>
+        <h1></h1>
+    </header>
+
+    <main>
+
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name">
+                <br><br>
+                <label for="contato">Contato:</label>
+                <input type="number" name="phone" id="contato">
+                <br><br>
+                <label for="solicitacao">Solicitação:</label> 
+                <br>
+                <textarea name="message" placeholder="Descreva o perfil aqui:"></textarea>
+                <br><br>
+                <input type="submit" value="Enviar">
+                <input type="hidden" name="accessKey" value="321ef0a2-b492-4eb2-8632-d49bdf7c0df4">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+
+            </form>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
